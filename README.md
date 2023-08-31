@@ -10,3 +10,9 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
    1. Charminar
    2. Wonderla Amusement park
    3. Music concert
+
+- Favourite Food dishes at my Vacation Spot
+   - Paradise Biryani
+   - KFC
+   - Deserts in Naturals
+   - Samosa
