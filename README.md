@@ -39,15 +39,20 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
 
     ****
     
-    # How to add discount field to add divs script?
+# Replace title when hovering the image in WooCommerce single Products
 
-var total = $('.somar').get().reduce(function(tot, el) {
-    var numero = el.innerHTML.split('.').join('').split(',').join('.');
-    return tot + Number(numero);
-}, 0);
-$('#resultado').html(total.toLocaleString(undefined, {minimumFractionDigits: 2}));
+add_action('woocommerce_before_single_product_summary', 'single_product_script_js' );
+function single_product_script_js() {
+    // Here set the text replacement for the product title
+    $text = __("Text replacement", "woocommerce");
+    
+    wc_enqueue_js("const productTitle  = $('.product_title').html(), textReplacement = '{$text}';
+    $('body').on('mouseover mouseout', '.woocommerce-product-gallery__image', function(e) {
+        $('.product_title').html(e.type === 'mouseover' ? textReplacement : productTitle);
+    });");
+}
 
 
-**[Here it is a link for checkout](https://stackoverflow.com/questions/77032499/how-to-add-discount-field-to-add-divs-script)**
+**[Here it is a link for checkout](https://stackoverflow.com/questions/77027939/replace-title-when-hovering-the-image-in-woocommerce-single-products)**
 
 
