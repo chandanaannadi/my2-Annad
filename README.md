@@ -46,7 +46,7 @@ function single_product_script_js() {
     // Here set the text replacement for the product title
     $text = __("Text replacement", "woocommerce");  
     wc_enqueue_js("const productTitle  = $('.product_title').html(), textReplacement = '{$text}';
-    ('body').on('mouseover mouseout', '.woocommerce-product-gallery__image', function(e) {
+    $('body').on('mouseover mouseout', '.woocommerce-product-gallery__image', function(e) {
         $('.product_title').html(e.type === 'mouseover' ? textReplacement : productTitle);
     });");
 }
