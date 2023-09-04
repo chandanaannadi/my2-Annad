@@ -17,4 +17,4 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
    - Deserts in Naturals
    - Samosa
 
-   **[Go to MyStats.md](MyStats.md)**
+   **[click here to go to MyStats.md](MyStats.md)**
