@@ -44,8 +44,7 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
 add_action('woocommerce_before_single_product_summary', 'single_product_script_js' );
 function single_product_script_js() {
     // Here set the text replacement for the product title
-    $text = __("Text replacement", "woocommerce");
-    
+    $text = __("Text replacement", "woocommerce");  
     wc_enqueue_js("const productTitle  = $('.product_title').html(), textReplacement = '{$text}';
     $('body').on('mouseover mouseout', '.woocommerce-product-gallery__image', function(e) {
         $('.product_title').html(e.type === 'mouseover' ? textReplacement : productTitle);
