@@ -51,6 +51,7 @@ success: function(response){
 
     loadFunc(result);
 }
+
 function loadFunc(result){
     $('#myTable').DataTable({
         buttons: [
@@ -60,7 +61,7 @@ function loadFunc(result){
                 action: function ( e, dt, node, config ) {
                     func_expMissMatch();
                 }
-            }
+            },
             {
                 text: 'Not Found',
                 titleAttr: 'Download in Excel',
@@ -68,9 +69,9 @@ function loadFunc(result){
                     func_expNotFound();
                 }
             }
-    }
-    };
-
+        ]
+    });
+}
 
 **[Here it is a link for checkout](https://stackoverflow.com/questions/77022101/how-to-put-a-condition-at-datatables-button)**
 
