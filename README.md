@@ -51,7 +51,6 @@ success: function(response){
 
     loadFunc(result);
 }
-
 function loadFunc(result){
     $('#myTable').DataTable({
         buttons: [
