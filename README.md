@@ -34,6 +34,26 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
     ## Quotes of Scentits
 
     > “Imagination is more important than knowledge." - *Albert Einstein's*
-    
+
     > "One never notices what has been done; one can only see what remains to be done." - *Marie Curie's*
+
+    ****
+    
+    # How to add discount field to add divs script?
+
+    var total = $('.somar').get().reduce(function(tot, el) {
+    var numero = el.innerHTML.split('.').join('').split(',').join('.');
+    return tot + Number(numero);
+}, 0);
+$('#resultado').html(total.toLocaleString(undefined, {minimumFractionDigits: 2}));
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="somar">500</div>
+<div class="somar">1.000</div>
+<div class="somar">1.000</div>
+<div id="resultado"></div>
+
+<div id="discount"></div>
+
+# Here it is a link for checkout **[link](https://stackoverflow.com/questions/77032499/how-to-add-discount-field-to-add-divs-script)**
+
 
