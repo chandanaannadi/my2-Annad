@@ -16,3 +16,5 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
    - KFC
    - Deserts in Naturals
    - Samosa
+
+   **[Go to MyStats.md](MyStats.md)**
