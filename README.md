@@ -25,6 +25,6 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
     | Sport | Reason | Time Spent |
     | --- | --- | ---: |
     | Cricket | We inherited that love from our glorious conquerors, the British Empire. | 5 hours |
-    | Badminton | The dominance of Asia's badminton players at the top level helps to inspire others to pick up a racket. | 4 hours |
-    | Foot Ball | Football is the most popular sport globally, with a massive fan base and international tournaments like the FIFA World Cup capturing the attention of people world. | 6 hours |
-    | Chess | Chess has risen in popularity in India in the last few decades primarily due to chess Grandmaster and former 5-time World Champion Viswanathan Anand. | 2 hours |
+    | Badminton | The dominance of Asia's badminton players at the top level. | 4 hours |
+    | Foot Ball | Football is the most popular sport globally. | 6 hours |
+    | Chess | Chess has risen in popularity in India in the last few decades. | 2 hours |
