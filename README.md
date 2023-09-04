@@ -28,3 +28,11 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
     | Badminton | The dominance of Asia's badminton players at the top level. | 4 hours |
     | Foot Ball | Football is the most popular sport globally. | 6 hours |
     | Chess | Chess has risen in popularity in India in the last few decades. | 2 hours |
+
+    *********************************
+
+    ## Quotes of Scentits
+
+    > “Imagination is more important than knowledge." - *Albert Einstein's*
+    > "One never notices what has been done; one can only see what remains to be done." - *Marie Curie's*
+
