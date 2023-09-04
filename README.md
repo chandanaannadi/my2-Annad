@@ -61,7 +61,7 @@ function loadFunc(result){
                 action: function ( e, dt, node, config ) {
                     func_expMissMatch();
                 }
-            },
+            }
             {
                 text: 'Not Found',
                 titleAttr: 'Download in Excel',
