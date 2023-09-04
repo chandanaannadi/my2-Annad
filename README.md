@@ -48,9 +48,7 @@ success: function(response){
     } else {
         result = "dataNull";
     }
-
     loadFunc(result);
-}
 function loadFunc(result){
     $('#myTable').DataTable({
         buttons: [
