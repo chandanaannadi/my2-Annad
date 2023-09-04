@@ -34,5 +34,6 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
     ## Quotes of Scentits
 
     > “Imagination is more important than knowledge." - *Albert Einstein's*
+    
     > "One never notices what has been done; one can only see what remains to be done." - *Marie Curie's*
 
