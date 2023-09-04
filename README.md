@@ -39,19 +39,41 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
 
     ****
     
-# Replace title when hovering the image in WooCommerce single Products
+# How to put a condition at Datatables button?
+success: function(response){
+    var result;
+    
+    if (response.data != null){
+        result = "dataNotNull";
+    } else {
+        result = "dataNull";
+    }
 
-add_action('woocommerce_before_single_product_summary', 'single_product_script_js' );
-function single_product_script_js() {
-    // Here set the text replacement for the product title
-    $text = __("Text replacement", "woocommerce");  
-    wc_enqueue_js("const productTitle  = $('.product_title').html(), textReplacement = '{$text}';
-    $('body').on('mouseover mouseout', '.woocommerce-product-gallery__image', function(e) {
-        $('.product_title').html(e.type === 'mouseover' ? textReplacement : productTitle);
-    });");
+    loadFunc(result);
+}
+
+function loadFunc(result){
+    $('#myTable').DataTable({
+        buttons: [
+            {
+                text: 'Missmatch',
+                titleAttr: 'Download in Excel',
+                action: function ( e, dt, node, config ) {
+                    func_expMissMatch();
+                }
+            },
+            {
+                text: 'Not Found',
+                titleAttr: 'Download in Excel',
+                action: function ( e, dt, node, config ) {
+                    func_expNotFound();
+                }
+            }
+        ]
+    });
 }
 
 
-**[Here it is a link for checkout](https://stackoverflow.com/questions/77027939/replace-title-when-hovering-the-image-in-woocommerce-single-products)**
+**[Here it is a link for checkout](https://stackoverflow.com/questions/77022101/how-to-put-a-condition-at-datatables-button)**
 
 
