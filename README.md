@@ -74,6 +74,8 @@ function loadFunc(result){
     });
 }
 ```
+**[Quick link to code snippet](https://css-tricks.com/snippets/jquery/smooth-scrolling/)**
+
 **[Here it is a link for checkout](https://stackoverflow.com/questions/77022101/how-to-put-a-condition-at-datatables-button)**
 
 
