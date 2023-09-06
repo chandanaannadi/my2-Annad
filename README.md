@@ -40,7 +40,7 @@ Hyderabad is my favourite vacation spot in india where I completed my bachelors 
     ****
     
 # How to put a condition at Datatables button?
-**[Here it is a link for checkout](https://stackoverflow.com/questions/77022101/how-to-put-a-condition-at-datatables-button)**
+**[Here it is a link for checkout snippet](https://stackoverflow.com/questions/77022101/how-to-put-a-condition-at-datatables-button)**
 ```
 success: function(response){
     var result;
@@ -75,7 +75,7 @@ function loadFunc(result){
     });
 }
 ```
-**[Quick link to code snippet](https://css-tricks.com/snippets/jquery/smooth-scrolling/)**
+**[Quick link to css tricks](https://css-tricks.com/snippets/jquery/smooth-scrolling/)**
 
 
 
